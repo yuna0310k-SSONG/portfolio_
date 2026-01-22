@@ -6,8 +6,8 @@ import Header from "@/src/layout/components/Header";
 import Footer from "@/src/layout/components/Footer";
 
 export const metadata: Metadata = {
-  title: "OOO | Frontend Developer",
-  description: "프론트엔드 개발자 OOO의 포트폴리오",
+  title: "Yuna's Portfolio",
+  description: "권유나의 포트폴리오",
 };
 
 export default function RootLayout({
