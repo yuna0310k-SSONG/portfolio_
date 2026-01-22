@@ -5,12 +5,12 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="py-28">
-      <div className="flex flex-col md:flex-row justify-center items-center gap-24">
-        <div className="max-w-xl">
+    <section className="py-20 sm:py-24 px-4 sm:px-6">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10 sm:gap-12 md:gap-24">
+        <div className="max-w-xl text-center md:text-left">
           <p className="text-sm text-gray-400 mb-4 tracking-wide">DEVELOPER</p>
 
-          <p className="text-gray-700 text-lg leading-loose mb-10">
+          <p className="text-gray-700 text-base sm:text-lg leading-relaxed sm:leading-loose mb-8 sm:mb-10">
             어제보다 나은{" "}
             <span className="text-[#8B7E74] font-medium">코드</span>를 고민하며
 ,<br />
@@ -32,13 +32,13 @@ export default function HeroSection() {
           </Link>
         </div>
 
-        <div className="flex justify-center md:justify-end">
-          <div className="relative  fade-mask">
+        <div className="flex justify-center md:justify-end w-full">
+          <div className="relative w-60 h-[28rem] sm:w-72 sm:h-[34rem] fade-mask">
             <Image
               src="/yuna2.jpg"
               alt="프로필 사진"
-              width={320}
-              height={320}
+              width={280}
+              height={280}
               priority
               className="object-cover transform scale-[0.7] rounded-[2.2rem]"
             />

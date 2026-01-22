@@ -16,10 +16,10 @@ const aboutItems = [
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-32 border-t border-gray-200">
+    <section id="about" className="py-24 sm:py-32 px-4 sm:px-6 border-t border-gray-200">
       <div className="flex flex-col items-center text-center">
         <motion.h2
-          className="text-xs tracking-widest text-gray-400 mb-16"
+          className="text-xs tracking-widest text-gray-400 mb-10 sm:mb-16"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -29,7 +29,7 @@ export default function AboutSection() {
         </motion.h2>
 
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-24 gap-y-14 max-w-4xl"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 sm:gap-x-16 gap-y-8 sm:gap-y-14 max-w-4xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

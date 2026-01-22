@@ -41,10 +41,10 @@ const stackCategories = [
 
 export default function TechStackSection() {
   return (
-    <section className="py-32 border-t border-gray-200">
+    <section className="py-24 sm:py-32 px-4 sm:px-6 border-t border-gray-200">
       <div className="flex flex-col items-center text-center">
         <motion.h2
-          className="text-xs tracking-widest text-gray-400 mb-16"
+          className="text-xs tracking-widest text-gray-400 mb-10 sm:mb-16"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -54,7 +54,7 @@ export default function TechStackSection() {
         </motion.h2>
 
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-20 gap-y-14 max-w-5xl text-left"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-8 sm:gap-x-16 gap-y-8 sm:gap-y-14 max-w-5xl text-left"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

@@ -7,10 +7,10 @@ import { projects } from "@/data/projects";
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="py-32 border-t border-gray-200">
+    <section id="projects" className="py-24 sm:py-32 px-4 sm:px-6 border-t border-gray-200">
       <div className="flex flex-col items-center">
         <motion.h2
-          className="text-xs tracking-widest text-gray-400 mb-16"
+          className="text-xs tracking-widest text-gray-400 mb-10 sm:mb-16"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -19,18 +19,18 @@ export default function ProjectsSection() {
           PROJECTS
         </motion.h2>
 
-        <div className="w-full max-w-4xl space-y-24">
+        <div className="w-full max-w-4xl space-y-14 sm:space-y-24">
           {projects.map((project, idx) => (
             <motion.div
               key={project.id}
-              className="grid grid-cols-1 md:grid-cols-5 gap-12 items-start"
+              className="grid grid-cols-1 md:grid-cols-5 gap-8 sm:gap-12 items-start"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: idx * 0.1 }}
             >
               <div className="md:col-span-2">
-                <div className="relative w-full h-44 bg-gray-100 rounded-xl overflow-hidden shadow-sm">
+                <div className="relative w-full h-40 sm:h-44 bg-gray-100 rounded-xl overflow-hidden shadow-sm">
                   <Image
                     src={
                       process.env.NEXT_PUBLIC_BASE_PATH
