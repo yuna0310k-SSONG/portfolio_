@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <section className="py-20 sm:py-24 px-4 sm:px-6">
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10 sm:gap-12 md:gap-24">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-4 sm:gap-6 md:gap-8">
         <div className="max-w-xl text-center md:text-left">
           <p className="text-sm text-gray-400 mb-4 tracking-wide">DEVELOPER</p>
 
@@ -33,14 +33,14 @@ export default function HeroSection() {
         </div>
 
         <div className="flex justify-center md:justify-end w-full">
-          <div className="relative w-60 h-[28rem] sm:w-72 sm:h-[34rem] fade-mask">
+          <div className="relative w-64 h-64 sm:w-80 sm:h-80 ">
             <Image
               src="/yuna2.jpg"
               alt="프로필 사진"
-              width={280}
-              height={280}
+              width={320}
+              height={320}
               priority
-              className="object-cover transform scale-[0.7] rounded-[2.2rem]"
+              className="object-contain rounded-[2.2rem]"
             />
           </div>
         </div>

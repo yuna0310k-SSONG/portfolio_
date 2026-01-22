@@ -54,6 +54,22 @@ export type Project = {
       link: "https://talk-2-sheet.vercel.app/",
       status: "완료",
     },
+    {
+      id: "dodopang",
+      title: "두두팡 (DoDoPang)",
+      description:
+        "랜덤으로 등장하는 두더지를 클릭해 점수를 얻는 미니게임입니다. 황금 두더지는 점수 2배, 폭탄은 점수를 초기화합니다.",
+      motivation:
+        "간단한 게임을 직접 구현하며 JavaScript 이벤트 처리와 타이머 로직에 익숙해지고 싶어 시작한 프로젝트입니다.",
+      stack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+      image: "/projects/DooDooPang.png", // 썸네일 이미지
+      link: "https://yuna0310k-ssong.github.io/DooDooPang/", // 배포 주소 or GitHub
+      status: "완료",
+    },
     
   ];
   
