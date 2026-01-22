@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section className="py-20 sm:py-24 px-4 sm:px-6">
       <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-1 sm:gap-2 md:gap-4 lg:gap-6">
-        <div className="max-w-xl text-center md:text-left">
+        <div className=" text-center md:text-left">
           <p className="text-xs text-gray-400 mb-6 tracking-widest font-light">
             developer ✦
           </p>
@@ -24,7 +24,7 @@ export default function HeroSection() {
               <span className="text-[#8B7E74] font-bold text-xl">1%</span>
               <span className="text-[#8B7E74] text-xs ml-1">↑</span>
             </span>{" "}
-            씩 성장하는 개발자
+            씩 성장하는 <br /> 개발자
             <br />
             <span className="text-gray-900 font-bold text-2xl sm:text-3xl inline-block mt-3">
               권유나
