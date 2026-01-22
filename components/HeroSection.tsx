@@ -33,13 +33,14 @@ export default function HeroSection() {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="relative w-72 h-[34rem] fade-mask shadow-[0_20px_40px_rgba(0,0,0,0.08)]">
+          <div className="relative  fade-mask">
             <Image
-              src="/me1.png"
+              src="/yuna2.jpg"
               alt="프로필 사진"
-              fill
+              width={320}
+              height={320}
               priority
-              className="object-cover transform scale-[0.8]"
+              className="object-cover transform scale-[0.7] rounded-[2.2rem]"
             />
           </div>
         </div>
