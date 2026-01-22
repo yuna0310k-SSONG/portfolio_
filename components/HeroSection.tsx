@@ -18,7 +18,7 @@ export default function HeroSection() {
             <span className="text-[#8B7E74] font-medium">1%</span>씩 성장하는
             개발자
             <br />
-            <span className="text-gray-900 font-medium tracking-tight">
+            <span className="text-gray-900 font-bold tracking-tight text-gray-900">
               권유나
             </span>
             입니다.
