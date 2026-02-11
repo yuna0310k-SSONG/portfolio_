@@ -10,7 +10,7 @@ const aboutItems = [
   { label: "이메일", value: "una3917@naver.com" },
   {
     label: "학력",
-    value: ["경영학사 (2026.02 예정)", "컴퓨터공학 학사 (진행중)"]
+    value: ["경영학사", "컴퓨터공학 학사 (취득 중)"]
   },
 ];
 
